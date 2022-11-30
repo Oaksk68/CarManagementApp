@@ -42,7 +42,7 @@ public class CardatabaseApplication implements CommandLineRunner {
 		orepository.saveAll(Arrays.asList(owner1, owner2));
 
 		// Add car object and link to owners and save these to db
-		Car car1 = new Car("Ford", "Mustang", "Red", 
+		Car car1 = new Car("Subaru", "Impreza", "Blue", 
 				"ADF-1121", 2021, 59000, owner1);
 		Car car2 = new Car("Nissan", "Leaf", "White", 
 				"SSJ-3002", 2019, 29000, owner2);
